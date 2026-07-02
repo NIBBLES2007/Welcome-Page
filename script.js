@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // BUG 2: Intentional JS Bug for juniors to fix
     // Typo in method name: getElementByID instead of getElementById
     // This will cause a TypeError in console and the button click won't work.
-    const actionBtn = document.getElementByID("action-btn"); 
+    const actionBtn = document.getElementById("action-btn"); 
     const clickMessage = document.getElementById("click-message");
 
     // BUG 3: Merge Conflict Setup.
